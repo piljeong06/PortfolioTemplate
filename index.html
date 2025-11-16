@@ -1,72 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Contact Alignment Test</title>
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
-<style>
-  .contact-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
-  }
+<!doctype html>
+<h2>About</h2>
+<p class="lead">A short professional summary.</p>
+<p>I am a Mechatronics Engineering student at the University of Waterloo. I enjoy hands-on projects combining mechanical design, electronics, and embedded software. I am interested in CAD, control systems, and product prototyping.</p>
 
-  .contact-list li a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: #222;
-    transition: color 0.3s ease;
-  }
 
-  .contact-list li a:hover {
-    color: #0073b1;
-  }
+<h3>Skills</h3>
+<ul class="skills">
+<li>CAD: Autodesk Inventor, SolidWorks</li>
+<li>Electronics: PCB layout, microcontrollers (Arduino / STM32)</li>
+<li>Software: Python, C/C++, MATLAB</li>
+<li>Manufacturing: 3D printing, machining, assembly</li>
+</ul>
 
-  .contact-list i {
-    font-size: 1.5rem;
-    color: #555;
-  }
-</style>
-</head>
-<body>
 
-<section id="contact">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <p>You can reach me via email or connect on LinkedIn!</p>
-    <ul class="contact-list">
-      <li>
-        <a href="mailto:piljeong06@example.com">
-          <i class="fas fa-envelope"></i>
-          Email
-        </a>
-      </li>
-      <li>
-        <a href="https://linkedin.com/in/piljeong06" target="_blank" rel="noopener">
-          <i class="fab fa-linkedin"></i>
-          LinkedIn
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/piljeong06" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-          GitHub
-        </a>
-      </li>
-    </ul>
-  </div>
+<h3>Contact</h3>
+<p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a> (replace with your email)</p>
+<p>LinkedIn: <a href="#">Your LinkedIn</a> (replace with your LinkedIn URL)</p>
 </section>
+</main>
 
+
+<footer class="site-footer">
+<div class="container">© <span id="year"></span> Yoonpil Jeong — <a href="#">Resume</a></div>
+</footer>
+
+
+<script src="script.js"></script>
 </body>
 </html>
